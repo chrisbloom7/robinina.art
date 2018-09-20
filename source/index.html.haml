@@ -10,19 +10,23 @@ title: Robinina.art
         .col-12
           %h1.mt-md-5
             = image_tag 'robinina.png', class: 'img-fluid', alt: 'Robinina.art'
-        .col-12.mt-5
-          .row.icons
+        .col-12
+          .row.icons.mt-5
             .col-md-3.col-6
-              = link_to 'https://www.etsy.com/shop/Robinina' do
+              = link_to 'https://www.etsy.com/shop/Robinina', title: 'Etsy' do
                 = image_tag 'etsy.png', class: 'img-fluid', alt: 'Etsy'
             .col-md-3.col-6
-              = link_to 'https://www.instagram.com/robinina' do
+              = link_to 'https://www.instagram.com/robinina', title: 'Instagram' do
                 = image_tag 'instagram.png', class: 'img-fluid', alt: 'Instagram'
             .col-md-3.col-6.mt-5.mt-md-0
-              = link_to 'https://www.facebook.com/robinina.bloom' do
+              = link_to 'https://www.facebook.com/robinina.bloom', title: 'Facebook' do
                 = image_tag 'facebook.png', class: 'img-fluid', alt: 'Facebook'
             .col-md-3.col-6.mt-5.mt-md-0
-              = link_to "javascript:window.location.href=atob('bWFpbHRvOnJvYmluaW5hQHltYWlsLmNvbQ==')" do
+              = link_to "javascript:window.location.href=atob('bWFpbHRvOnJvYmluaW5hQHltYWlsLmNvbQ==')", title: 'Email' do
                 = image_tag 'email.png', class: 'img-fluid', alt: 'Email'
+          .row.show.mt-5
+            .col-12
+              = link_to 'https://www.etsy.com/shop/Robinina', title: 'Custom art for sale' do
+                = image_tag 'art-for-sale.jpg', class: 'img-fluid', alt: 'Custom art for sale'
     .col-md-6.col-12.order-2.order-md-1.mt-5.mt-md-0
       = image_tag 'girl.png', id: 'girl', class: 'img-fluid', alt: ''
