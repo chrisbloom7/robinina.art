@@ -51,5 +51,5 @@ end
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  config[:host] = "http://www.robinina.art"
+  config[:host] = "https://www.robinina.art"
 end
